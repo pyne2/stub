@@ -7,6 +7,6 @@ a new component of the PyNE2 collection of tools.
 The following changes are necessary to specialize it to a new component after
 making a new repository based on this template:
 1. set the value of the `PYNE2_COMP_NAME` in `CMakeLists.txt` at the top level
-2. set the value of `PC2_NAME` in `src/python/pyne2_stub_version.py`
-3. replace the substring `_STUB_` in all variables in `src/python/pyne2_stub_version.py`
+2. rename `src/python/pyne2_stub_version.py` to replace the substring `stub` in
+   the file name
 
