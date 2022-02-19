@@ -20,4 +20,3 @@ pyne2_print_logo()  # Beware of dragons
 set(BUILD_SHARED_LIBS true)
 
 add_subdirectory(src)
-#add_subdirectory(python)
